@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Sistema de Rastreabilidade
+    </title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>
+                Rastreabilidade
+                <span>Industrial</span>
+            </h1>
+
+            <p class="subtitulo">
+                Controle de peças através de QR Code
+            </p>
+
+            <button id="scanButton">
+                 Escanear QR Code
+            </button>
+
+            <div id="reader"></div>
+
+            <div id="resultado">
+
+                <div class="status">
+                    Sistema Online
+                </div>
+
+                <h2 class="info-title">
+                    Aguardando Leitura
+                </h2>
+
+                <p>
+                    Escaneie um QR Code para visualizar
+                    as informações da peça.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

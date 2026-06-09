@@ -1,0 +1,43 @@
+[
+    {
+        "id": "PEC001",
+        "lote": "LT2025",
+        "produto": "Engrenagem Principal",
+        "material": "Aço Carbono",
+        "peso": "2,5 kg",
+        "dataFabricacao": "2025-05-10",
+        "responsavel": "Carlos Silva",
+        "setor": "Fundição",
+        "status": "Em Produção",
+        "local": "Fundição",
+        "horario": "08:00:00"
+    },
+    {
+        "id": "PEC002",
+        "lote": "LT2026",
+        "produto": "Eixo de Transmissão",
+        "material": "Aço Inox",
+        "peso": "4,2 kg",
+        "dataFabricacao": "2025-05-11",
+        "responsavel": "Mariana Costa",
+        "setor": "Usinagem",
+        "status": "Em Processamento",
+        "local": "Usinagem",
+        "horario": "09:15:00"
+    },
+    {
+        "id": "PEC003",
+        "lote": "LT2027",
+        "produto": "Suporte Industrial",
+        "material": "Ferro Fundido",
+        "peso": "3,8 kg",
+        "dataFabricacao": "2025-05-12",
+        "responsavel": "João Pereira",
+        "setor": "Controle de Qualidade",
+        "status": "Aguardando Aprovação",
+        "local": "Inspeção",
+        "horario": "10:30:00"
+    }
+]
+
+
